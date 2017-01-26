@@ -1,0 +1,76 @@
+type: bluemix
+server:
+  displayName: United Kingdom
+  name: eu-gb
+  host: eu.apiconnect.ibmcloud.com
+org:
+  url: 'https://eu.apiconnect.ibmcloud.com/v1/orgs/579625fd0cf296606e816554'
+  id: 579625fd0cf296606e816554
+  name: cmarcoliukibmcom-sandpit
+  status: active
+  orgType: apiProvider
+  displayName: CMARCOLI@UK.IBM.COM (Sandpit)
+  externalOrgId: 5375ed6d-6fd8-46f0-a7c4-75bbc6da372a
+  externalInviteOverride: 'https://new-console.eu-gb.bluemix.net/apis/catalog/invitation'
+  externalSpaceId: 5375ed6d-6fd8-46f0-a7c4-75bbc6da372a
+  externalNativeOrgId: 7793ee88-d9f1-4c26-8bbe-b1d22ff21070
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+  dormant: false
+catalog:
+  id: 579625fd0cf296606e816572
+  orgId: 579625fd0cf296606e816554
+  name: Sandbox
+  shortName: sb
+  owner:
+    id: 56faa55c0cf2ec5f1ac7d6e8
+    username: cmarcoli@uk.ibm.com
+    context: apimanager
+    idpId: 58335d5ed20e47053bf50fd0
+    email: cmarcoli@uk.ibm.com
+    firstName: cmarcoli@uk.ibm.com
+    lastName: cmarcoli@uk.ibm.com
+    status: ACTIVE
+    lastLoginTime: '2016-11-17T16:42:04.567+0000'
+    url: 'https://eu.apiconnect.ibmcloud.com/v1/users/56faa55c0cf2ec5f1ac7d6e8'
+  apiCenter: false
+  baseUrl: 'https://api.eu.apiconnect.ibmcloud.com/cmarcoliukibmcom-sandpit/sb'
+  portalType: ADVANCED
+  portalUrl: 'https://developer.eu.apiconnect.ibmcloud.com/cmarcoliukibmcom-sandpit/sb'
+  advPortalUrl: 'https://sb-cmarcoliukibmcom-sandpit.developer.eu.apiconnect.ibmcloud.com'
+  gatewayType: DataPowerGateway
+  idp: 579625fe0cf296606e816573
+  idps:
+    - 579625fe0cf296606e816573
+  availableRoles:
+    - viewer
+    - developer
+  default: false
+  autoDeploy: true
+  gatewayClusterUrl: /gatewayClusters/PRODAPIC_APIMGMT_GATEWAY
+  restrictedDeployment: false
+  invitationEnabled: true
+  selfSignUpEnabled: true
+  spaceEnabled: false
+  spaceIds:
+    - 583356863aa2bf08c8a3113a
+  testAppEnabled: true
+  testAppCredentials:
+    clientId: 33382091-62b2-4bf3-8de9-a33282544b5e
+    clientSecret: P4jG0cT2sE0eS1fE7yM1jB2qR1fJ2pB2iT3jV4iG0kG5jA8iF8
+  createdAt: '2016-07-25T14:45:18.015+0000'
+  updatedAt: '2016-08-25T09:05:32.905+0000'
+  createdBy: cmarcoli@uk.ibm.com
+  updatedBy: cmarcoli@uk.ibm.com
+  url: >-
+    https://eu.apiconnect.ibmcloud.com/v1/orgs/579625fd0cf296606e816554/environments/579625fd0cf296606e816572
+  productDeploymentApprovalRequiredStates: []
+  orgName: cmarcoliukibmcom-sandpit
+space:
+  none: true
+app:
+  new: true
+  name: paymentsprovider
+id: 03413ff5-6def-4cd6-865d-6f959a8600ff
+target: 1.0.0
